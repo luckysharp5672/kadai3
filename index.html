@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="ja">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InnovationBox</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-</body>
+    <title>イノベーション創出</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <h1>イノベーションとは新結合のことである</h1>
+    <p>既存のビジネスモデルを結合させると新しいビジネスアイデアが生まれる、、、はず</p>
+    <div>
+      <button onclick="selectColumns()">ビジネスモデルを表示</button>
+      <button onclick="createInnovationTable()">イノベーション</button>
+    </div>
+    <div id="command"></div>
+    <div id="tablenote"></div>
+    <div id="tableContainer"></div>
+    <div id="AIprompt"></div>
+    <div id="selectedCompanies"></div>
+
+    <script src="/js/innovation.js"></script>
+
+  </body>
 </html>
+
+

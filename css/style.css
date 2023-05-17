@@ -1,0 +1,46 @@
+h1 {
+    font-size: 30px;
+    padding: 20px;
+}
+
+p { 
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 14px;
+    margin: 15px;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 0 0 10px 15px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: yellow;
+}
+
+#command {
+    padding: 0 0 15px 15px;
+}
+
+#tablenote {
+    padding: 0 0 15px 15px;
+}
+#AIprompt {
+    padding: 0 0 15px 15px;
+}
+
+#selectedCompanies {
+    padding-left: 15px;
+}
