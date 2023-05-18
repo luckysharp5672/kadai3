@@ -279,3 +279,4 @@ function createInnovationTable() {
 
     tableContainer.appendChild(table);
 }
+
